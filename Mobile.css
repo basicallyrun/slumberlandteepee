@@ -1,0 +1,174 @@
+*{
+margin: 0;
+padding: 0;
+font-family: courier new;
+font-style: oblique;
+}
+
+@media screen and  (max-width: 500px) {
+
+header{
+background-image: url("https://i.imgur.com/rh3B40B.jpg?1");
+height: 120vh;
+background-size: cover;
+background-position: center;
+}
+
+body {
+font-size: 15px;
+height: auto;
+}
+
+ul{
+position: absolute;
+top: 1%;
+right: 5%;
+float: right;
+list-style-type: none;
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #ffffff;
+padding: 5px 10px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+
+ul li .active a{
+background-color: #fff;
+color: #000;
+}
+
+.main{
+max-width: 500px;
+margin: auto;
+  width: 75%;
+  float: left;
+}
+
+.title{
+position: absolute;
+top: 18%;
+left: 35%;
+transform: translate(-50%,-50%);
+}
+
+.title h1{
+color: #fff;
+font-size: 2em;
+display:flex;
+}
+
+.Para1{
+position: absolute;
+top: 27%;
+left: 35%;
+transform: translate(-50%,-50%);
+}
+
+.Para1 p1{
+color: #fff;
+font-size: 1em;
+display:flex;
+}
+
+.button{ 
+position: absolute;
+top: 41%;
+left: 33%;
+transform: translate(-50%,-50%);
+}
+
+.btn{
+border: 1px solid #fff;
+padding: 5px 20px;
+color: #F4A460;
+text-decoration: none;
+transition: 0.6s ease;
+font-size: 2.5em;
+}
+
+.btn:hover{
+background-color: #fff;
+color: #000;
+}
+
+.OurStory{
+position: absolute;
+top: 38%;
+left: 35%;
+transform: translate(-50%,-50%);
+}
+
+.OurStory p2{
+color: #fff;
+font-size: 1em;
+display:flex;
+}
+
+.WishingWell{
+position: absolute;
+top: 270%;
+left: 33%;
+transform: translate(-50%,-50%);
+}
+
+.WishingWell p3{
+color: #fff;
+font-size: 1em;
+display:flex;
+}
+
+.Donate{
+position: absolute;
+top: 477%;
+left: 27%;
+transform: translate(-50%,-50%);
+}
+
+.Info{
+position: absolute;
+top: 36.5%;
+left: 35%;
+transform: translate(-50%,-50%);
+}
+
+.Info p4{
+color: #fff;
+font-size: 1em;
+display:flex;
+}
+
+.iframe{
+position: absolute;
+top: 60%;
+left: 40%;
+transform: translate(-50%,-50%);
+}
+
+.MInfo{
+position: absolute;
+top: 210%;
+left: 35%;
+transform: translate(-50%,-50%);
+}
+  
+.MInfo p5{
+color: #fff;
+font-size: 1em;
+display:flex;
+}
+ 
+}
+
+
